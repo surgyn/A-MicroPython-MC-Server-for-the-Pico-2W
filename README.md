@@ -23,12 +23,12 @@ This started as a small experiment to see how far a $6 microcontroller could be 
 ## Setup
 
 1. Flash the latest MicroPython firmware for the Pico 2 W.
-2. Open `main.py` and set your Wi-Fi credentials:
+2. Open `mc.py` and set your Wi-Fi credentials:
    ```python
    WIFI_SSID = "YOUR_WIFI_SSID"
    WIFI_PASSWORD = "YOUR_WIFI_PASSWORD"
    ```
-3. Copy `main.py` onto the Pico (e.g. with Thonny, `mpremote`, or `rshell`).
+3. Copy `mc.py` onto the Pico (e.g. with Thonny, `mpremote`, or `rshell`).
 4. Reset the board. It will connect to Wi-Fi and start listening on port 25565.
 5. In Minecraft 1.8.9, add a server using the Pico's IP address, which is printed over serial on startup.
 
